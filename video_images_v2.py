@@ -1,3 +1,8 @@
+'''
+by -- ARCHITO
+CONVERT VIDEO TO FRAMES,
+TRIM VIDEO
+'''
 import cv2
 import numpy as np
 import os
