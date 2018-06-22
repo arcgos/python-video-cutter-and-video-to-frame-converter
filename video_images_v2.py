@@ -1,15 +1,8 @@
-'''
-by -- ARCHITO
-CONVERT VIDEO TO FRAMES,
-TRIM VIDEO
-give the video duration, start time, end time,file loc,destination loc
-saves videos into frames
-'''
 import cv2
 import numpy as np
 import os
 
-fileName = "Name_of_video.mp4"
+fileName = "Yeah_Baby_Garry_Sandhu.mp4"
 
 cap = cv2.VideoCapture(fileName)
 TotalFrames = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
